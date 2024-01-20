@@ -349,6 +349,7 @@ footer .space {
     .plans {
         max-width: 100%;
         width: 100%;
+        margin: 0 7px;
     }
 
     .searchdomain-container {
@@ -427,5 +428,22 @@ footer .space {
 
     .contact-container p {
         padding: 0 10px;
+    }
+}
+
+/* Celular 320px */
+@media (max-width: 320px) {
+
+    .navbar-container {
+        padding: 0 1rem;
+    }
+
+    .narbar-items li {
+        font-size: 10px;
+        margin-left: 4px;
+    }
+
+    .contact-container p {
+        padding: 0 15px;
     }
 }
