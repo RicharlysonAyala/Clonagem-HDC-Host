@@ -416,3 +416,16 @@ footer .space {
         padding: 0 1rem;
     }
 }
+
+/* Celulares 394px */
+@media (max-width: 394px) {
+
+    .navbar-items li {
+        font-size: 11px;
+        margin-left: 6px;
+    }
+
+    .contact-container p {
+        padding: 0 10px;
+    }
+}
