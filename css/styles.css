@@ -338,3 +338,21 @@ footer .space {
         margin: 0 10px;
     }
 }
+
+/* Tablets 900px */
+@media (max-width: 900px) {
+
+    .main-banner p {
+        padding: 0 3rem;
+    }
+
+    .plans {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .searchdomain-container {
+        padding: 2rem 4rem;
+    }
+}
+
