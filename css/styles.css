@@ -347,8 +347,8 @@ footer .space {
     }
 
     .plans {
-        width: 100%;
         max-width: 100%;
+        width: 100%;
     }
 
     .searchdomain-container {
@@ -356,3 +356,63 @@ footer .space {
     }
 }
 
+/* Celular 576 */
+@media (max-width: 576px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .navbar-items li {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .main-banner p {
+        padding: 0 1rem;
+        font-size: 30px;
+    }
+
+    .services-container ul {
+        flex-direction: column;
+    }
+
+    .pricing-container {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .plans {
+        width: 95%;
+        margin: 0 auto 30px;
+    }
+
+    .searchdomain-container {
+        padding: 2rem 1rem;
+    }
+
+    .searchdomain-container h2 {
+        font-size: 30px;
+    }
+
+    .searchdomain-container p {
+        font-size: 20px;
+    }
+
+    .searchdomain-container input[type="text"] {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .contact-container input,
+    .contact-container textarea {
+        max-width: 100%;
+        width: 100%;
+        margin: 5px auto;
+    }
+    
+    .contact-container form {
+        padding: 0 1rem;
+    }
+}
